@@ -15,7 +15,6 @@ namespace Parcialito
 		public void ensayar()
 		{
 			guitarra.ensayar();
-			
 		}
 		
 		public void tocar()
