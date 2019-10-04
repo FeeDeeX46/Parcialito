@@ -14,15 +14,12 @@ namespace Parcialito
 		
 		public void ensayar()
 		{
-			guitarra.acomodarGuitarra();
-			guitarra.revisarCuerdas();
-			guitarra.afinarCuerdas();
+			guitarra.ensayar();
 		}
 		
 		public void tocar()
 		{
-			guitarra.leerPartitura();
-			guitarra.tocarInstrumento();			
+			guitarra.tocar();		
 		}
 	}
 }
