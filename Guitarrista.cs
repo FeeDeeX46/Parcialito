@@ -19,7 +19,7 @@ namespace Parcialito
 		
 		public void tocar()
 		{
-			guitarra.tocar();			
+			guitarra.tocar();		
 		}
 	}
 }
