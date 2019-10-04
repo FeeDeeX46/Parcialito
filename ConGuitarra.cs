@@ -5,14 +5,14 @@ namespace Parcialito
 
 	public abstract class ConGuitarra
 	{
-		void ensayar()
+		public void ensayar()
 		{
 			acomodarGuitarra();
 			revisarCuerdas();
 			afinarCuerdas();
 		}
 		
-		void tocar()
+		public void tocar()
 		{
 			leerPartitura();
 			tocarInstrumento();
